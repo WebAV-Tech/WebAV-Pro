@@ -15,7 +15,7 @@ WebAV-Pro 最重要的特点是可组合、可定制化，用户可以基于这�
 
 WebAV-Pro 目前正在建设中，会优先满足 Web 平台上 **AI 视频领域**的需求。
 
-如果你对 Web 视频处理有好的想法、合作诉求，欢迎联系我，我的联系方式：
+你可以 star/watch 来跟进该项目，如果你对 Web 视频处理有好的想法、合作诉求，欢迎联系我，我的联系方式：
 
 - 邮箱：`hughfenghen@gmail.com`
 - 微信： `liujun_fenghen`，**切记备注**： `WebAV-Pro`
