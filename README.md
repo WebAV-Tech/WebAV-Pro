@@ -2,7 +2,7 @@
 
 _建设中_
 
-**WebAV-Pro 将是一个商业版 SDK**，基础版开源项目请访问 [WebAV](https://github.com/WebAV-Tech/WebAV)。
+**WebAV-Pro 将是一个商业版 SDK**，基础版开源免费项目请访问 [WebAV](https://github.com/WebAV-Tech/WebAV)。
 
 WebAV 不依赖服务器，可以在纯 Web 平台（浏览器、Electron 等）上创建/编辑音视频文件，它提供了视频编辑的基础能力。
 
@@ -31,16 +31,18 @@ WebAV-Pro 以 SDK 形式提供可组合、可定制的功能，暂不考虑做 t
 
 ### 口播文字剪辑视频
 
-![alt text](./assets/image-2.png)
+<img src="./assets/image-2.png" width="600">
+
 
 _图片来自 开拍_
 
 ### 自动高亮/动画重点文案
 
-![alt text](./assets/image-1.png)
+<img src="./assets/image-1.png" width="300">
 
 _图片来自 CapUp_
 
 ### 素材混剪，批量生成视频
 
-![alt text](./assets/image-3.png)
+<img src="./assets/image-3.png" width="800">
+
