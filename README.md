@@ -39,7 +39,7 @@ WebAV-Pro 以 SDK 形式提供可组合、可定制的功能，暂不考虑做 t
 
 ### 创意动画导出为视频
 
-<video src="./assets/video-animation.mp4" controls></video>
+https://github.com/user-attachments/assets/7f98c379-b773-484f-8537-714171a6d6c5
 
 ### 素材混剪，批量生成视频
 
