@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebAV-Pro</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body {
+            background-color: #151033;
+            color: white;
+            padding: 40px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .hero-content {
+            width: 55%;
+        }
+
+        .hero-image {
+            width: 40%;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 64px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .subtitle {
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            color: #96a7ff;
+            text-decoration: none;
+        }
+
+        .link:hover {
+            text-decoration: underline;
+        }
+
+        .features-header {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .feature-card {
+            background-color: rgba(30, 25, 80, 0.7);
+            border-radius: 10px;
+            padding: 25px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .feature-icon {
+            background-color: #2a2d5e;
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-size: 24px;
+            color: #96a7ff;
+        }
+
+        .feature-content h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .feature-content p {
+            color: #d0d0e0;
+            font-size: 16px;
+            margin: 0;
+        }
+
+        .glowing-circle {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #3e5dff, #ae3dff);
+            position: relative;
+            filter: blur(20px);
+            opacity: 0.5;
+        }
+
+        .face-outline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .advantage {
+            margin-bottom: 40px;
+        }
+
+        .advantage h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+            }
+
+            .hero-content,
+            .hero-image {
+                width: 100%;
+            }
+
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 42px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="hero">
+            <div class="hero-content">
+                <h1>WebAV-Pro</h1>
+                <p class="subtitle">WebAV-Pro 是一个商业版 SDK</p>
+                <p>基础版开源免费项目请访问 <a target="_blank" href="https://webav-tech.github.io/WebAV" class="link">WebAV</a></p>
+            </div>
+            <div class="hero-image">
+                <div class="glowing-circle"></div>
+                <div class="face-outline">
+                    <!-- SVG or image would go here in a real implementation -->
+                </div>
+            </div>
+        </div>
+
+        <div class="advantage">
+            <!-- <h3>Advanced capabilities: transitions; animations, filters, color adjustments...</h3> -->
+            <p>WebAV 不依赖服务器，可以在纯 Web 平台（浏览器、Electron 等）上创建/编辑音视频文件，它提供了视频编辑的基础能力。</p>
+            <p>WebAV-Pro 继承了 WebAV 的所有特性（跨平台、零成本、高性能...），计划提供视频编辑相关的</p>
+            <p>
+            <ul>
+                <li>进阶能力：转场、动画、滤镜、调色...</li>
+                <li>常用功能：时间/轨道轴、口播剪辑、花字特效、视频模板、脚本批量处理...</li>
+            </ul>
+            </p>
+            <p>WebAV-Pro 目前正在建设中，会优先满足 Web 平台上 AI 视频领域的需求。 </p>
+        </div>
+
+        <!-- <h2 class="features-header">WebAV Features</h2>
+
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">👥</div>
+                <div class="feature-content">
+                    <h3>Cross-Platform</h3>
+                    <p>Runs in Edge: Chrome browsers, and Electron</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">$</div>
+                <div class="feature-content">
+                    <h3>Zero Cost</h3>
+                    <p>Completely client-side, no server costs required</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔒</div>
+                <div class="feature-content">
+                    <h3>Privacy-Safe</h3>
+                    <p>Does not upload any user data</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <div class="feature-content">
+                    <h3>High Performance</h3>
+                    <p>Near-native performance, 10-20x that of ffmpeg,wasm</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚙️</div>
+                <div class="feature-content">
+                    <h3>Easily Extensible</h3>
+                    <p>Very friendly to web-developers, works easily with Canvas, WebAudio for custom functionality</p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📦</div>
+                <div class="feature-content">
+                    <h3>Small Size</h3>
+                    <p>Around 50KB (MINIFIED + GZIPPED, unshaken)</p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</body>
+
+</html>
