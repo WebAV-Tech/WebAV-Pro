@@ -2,7 +2,7 @@
 
 _建设中_
 
-**WebAV-Pro 将是一个商业版 SDK**，基础版开源免费项目请访问 [WebAV](https://github.com/WebAV-Tech/WebAV)。
+**WebAV-Pro 将是一个商业版 SDK**，早期价格可以商量，基础版开源免费项目请访问 [WebAV](https://github.com/WebAV-Tech/WebAV)。
 
 WebAV 不依赖服务器，可以在纯 Web 平台（浏览器、Electron 等）上创建/编辑音视频文件，它提供了视频编辑的基础能力。
 
@@ -15,7 +15,7 @@ WebAV-Pro 最重要的特点是可组合、可定制化，用户可以基于这�
 
 WebAV-Pro 目前正在建设中，会优先满足 Web 平台上 **AI 视频领域**的需求。
 
-你可以 star/watch 来跟进该项目，如果你对 Web 视频处理有好的想法、合作诉求，欢迎联系我，我的联系方式：
+如果你对 Web 视频处理有好的想法、合作诉求，欢迎联系我，我的联系方式：
 
 - 邮箱：`hughfenghen@gmail.com`
 - 微信： `liujun_fenghen`，**切记备注**： `WebAV-Pro`
