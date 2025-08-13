@@ -47,6 +47,11 @@ WebAV-Pro 以 SDK 形式提供可组合、可定制的功能，可接受定制�
 
 以下是优秀产品中的功能截图，这些产品已经集成了 WebAV SDK。
 
+
+### ZingAI 视频编辑
+
+<img src="https://github.com/user-attachments/assets/c047e7b7-7787-4000-9791-e55406e4d1f9" width="600" />
+
 ### 口播文字剪辑视频
 
 <img src="./assets/image-2.png" width="600">
