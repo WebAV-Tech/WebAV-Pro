@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://webav-tech.github.io/WebAVPro/sitemap.xml
